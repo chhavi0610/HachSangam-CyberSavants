@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Parking Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <button onclick="openLoginDialog()">Login</button>
+<button onclick="openSignupDialog()">Signup</button>
+
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeLoginDialog()">&times;</span>
+        <h2>Login</h2>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <button class="btn" onclick="login()">Login</button>
+        <button class="btn" onclick="forgotPassword()">Forgot Password</button>
+    </div>
+</div>
+
+<div id="signupModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeSignupDialog()">&times;</span>
+        <h2>Sign Up</h2>
+        <label for="emailOrPhone">Email or Phone:</label><br>
+        <input type="text" id="emailOrPhone" name="emailOrPhone"><br>
+        <label for="otp">OTP:</label><br>
+        <input type="text" id="otp" name="otp"><br>
+        <button class="btn" onclick="signup()">Sign Up</button>
+    </div>
+</div>
+
+        </nav>
+        <div class="box"></div>
+        <div class="hero">
+            
+           
+
+        </div>
+        <nav>
+            <span class="container">
+                <h1>SpaceSpotter</h1>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <!-- Removed "Products" link -->
+                    <li><a href="#contact">Contact</a></li>
+                    <button class="btn btn-prebook" onclick="openPreBookPage()">Pre Book</button>
+
+                </ul>
+            </div>
+            <!-- Popup container -->
+<div id="popup" class="popup">
+    <!-- Popup content -->
+    <div class="popup-content">
+        <span class="close" id="closePopup">&times;</span>
+        <h2>Login or Signup</h2>
+        <!-- Add your login/signup form here -->
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</div>
+
+
+            <div >
+                <ul>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#signup">Signup</a></li>
+                    <li><a href="#premium">Buy Premium</a></li>
+                </ul>
+            </span>
+        </nav>
+    </header>
+    <div class="content-block">
+        <h2>Street Parking Management</h2>
+        <p>Discover nearby parking with ease – our intuitive website locates spots near you! </p>
+        
+    </div>
+    <section class="hero">
+
+
+            <h2>Smart Parking Solutions</h2>
+            <p>Efficient, reliable, and innovative parking solutions for urban environments.
+                <div class=".
+               
+"></div>
+            </p>
+            <a href="#contact" class="btn">Learn More</a> <!-- Link to the contact section -->
+        </div>
+    </section>
+    <!-- Other sections and content here -->
+    <!-- Contact section with contact details -->
+    <div><style>input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="time"], textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }</style></div>
+    <footer id="contact">
+        <section class="contact-section">
+            <div class="container">
+                <h2 class="contact-heading">Contact Us</h2>
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3>Email</h3>
+                        <p>chhavisharma0610@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Phone</h3>
+                        <p>+91 9301132910</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Address</h3>
+                        <p>xyz</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    
+</body>
+</html>
