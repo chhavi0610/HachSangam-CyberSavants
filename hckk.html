@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Website</title>
+<title>SpaceSpotter</title>
 <link rel="stylesheet" href="hckk.css">
 <script src="hckk.js"></script>
 
@@ -11,6 +11,7 @@
 <body>
 
 <header>
+  
   <nav>
     <ul>
       <li><a href="#" onclick="scrollToHome()">Home</a></li>
@@ -25,12 +26,21 @@
   </nav>
 </header>
 
+<div class="logo-container">
+  <img src="C:\Users\ABC\Downloads\logooo.png" alt="site Logo" style="display: block; margin: 0 auto;">
+  <style>
+    /* Center the logo */
+    .logo-container {
+        text-align: center;
+    }
+</style>
+
 
 <div class="content">
  
-  <p><h1><b>SpaceSpotter</b></h1></p>
-  <h3>Finding Parking Made Simple: </h3>
-  <h3>Your Gateway to Hassle-Free Parking Solutions</h3>
+ 
+  <h2>Finding Parking Made Simple: </h2>
+  <h2>Your Gateway to Hassle-Free Parking Solutions</h2>
   
 </div>
 
@@ -50,28 +60,29 @@
 
 <div class="content-boxes">
     <div class="content-box">
-      <h3>Box 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
+      <h2>Vision</h2>
+      <p>Our vision is to revolutionize urban mobility by creating a seamless and efficient street parking management system that enhances the parking experience for all stakeholders. We envision a future where finding parking is effortless, congestion is reduced, and cities become more livable and sustainable.
+      </p>
     </div>
     <div class="content-box">
-      <h3>Box 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
+      <h2>Mission</h2>
+      <p>Our mission is to develop and implement innovative solutions that optimize the utilization of street parking spaces, improve accessibility, and reduce the environmental impact of urban congestion</p>
     </div>
     <div class="content-box">
-      <h3>Box 3</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
+      <h2>Goal</h2>
+      <p>The website aims to simplify parking by offering smart solutions for urban environments, facilitating convenient spot finding and efficient management. It strives to enhance user experience through innovative technologies and services, optimizing the parking process for urban dwellers.</p>
     </div>
     <div class="content-box">
-      <h3>Box 4</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
+      <h2>Futre Goals</h2>
+      <p>The website seeks to expand its services globally, offering smart parking solutions to cities worldwide. It aims to integrate advanced technologies like AI and IoT to enhance parking efficiency and user experience. Additionally, it strives to establish partnerships with local governments and businesses to promote sustainable urban mobility solutions.</p>
     </div>
     <div class="content-box">
-      <h3>Box 5</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
+      <h2>Target Audience</h2>
+      <p>The target audience for this website includes urban residents, commuters, businesses, and municipalities seeking efficient parking solutions. It caters to individuals looking for convenient parking options, as well as organizations involved in parking management and urban development initiatives.</p>
     </div>
     <div class="content-box">
-      <h3>Box 6</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
+      <h2>Interface</h2>
+      <p>The website's interface features a user-friendly design, emphasizing simplicity and efficiency. It likely incorporates intuitive navigation, clear visuals, and concise content to facilitate easy access to parking solutions. Additionally, it may employ interactive elements and responsive design to enhance user engagement across various devices.</p>
     </div>
   </div>
   <button class="learn-more" onclick="openLearnMore()"><a href="learnmore.html">LearnMore</a></button>
@@ -79,19 +90,18 @@
     <div class="footer-content">
       <div>
         <h3>Contact Us</h3>
-        <p>Email: info@example.com</p>
-        <p>Phone: 123-456-7890</p>
+        <p>Email: chhavisharma0610@gmail.com</p>
+        <p>Phone: 930-113-2910</p>
       </div>
       <div>
         <h3>Follow Us</h3>
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
+        <a href="#">space_spotter</a>
+        
       </div>
       <div>
         <h3>Location</h3>
-        <p>123 Street, City</p>
-        <p>Country</p>
+        <p>Indore</p>
+        
       </div>
     </div>
   </footer>
@@ -101,7 +111,7 @@
 <div id="loginModal" class="modal">
   <div class="modal-content">
     <span class="close" onclick="closeLoginDialog()">&times;</span>
-    <h2>Login</h2>
+    <h2 class="log">Login</h2>
     <label for="username">Username:</label><br>
     <input type="text" id="username" name="username"><br>
     <label for="password">Password:</label><br>
@@ -115,7 +125,7 @@
 <div id="signupModal" class="modal">
   <div class="modal-content">
     <span class="close" onclick="closeSignupDialog()">&times;</span>
-    <h2>Sign Up</h2>
+    <h2 class="log">Sign Up</h2>
     <label for="emailOrPhone">Email or Phone:</label><br>
     <input type="text" id="emailOrPhone" name="emailOrPhone"><br>
     <label for="otp">OTP:</label><br>
