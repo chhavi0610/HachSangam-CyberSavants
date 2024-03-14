@@ -84,3 +84,22 @@ app.post('/signup', (req, res) => {
 app.listen(3000, () => {
   console.log('Server is running on port 3000');
 });
+window.onscroll = function() {fixNavbar()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function fixNavbar() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("fixed");
+    } else {
+        navbar.classList.remove("fixed");
+    }
+}
+function openDialog(dialogId) {
+  document.getElementById(dialogId).style.display = 'block';
+}
+
+function closeDialog(dialogId) {
+  document.getElementById(dialogId).style.display = 'none';
+}
