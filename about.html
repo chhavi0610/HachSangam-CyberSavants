@@ -9,10 +9,53 @@
 </head>
 <body>
   <!-- About page content -->
-  <header>
-    <h1 class="head">About Us</h1>
-  </header>
-  
+ 
+  <div align="center"> <h2 class="heaading">AboutUs</h2> </div>
+<div class="container">
+  <button onclick="openDialog('dialog1')">SpotSolution</button>
+  <button onclick="openDialog('dialog2')">SpotReport</button>
+</div>
+
+
+<div id="dialog1" class="dialog">
+  <div class="dialog-content">
+    <span class="close" onclick="closeDialog('dialog1')">&times;</span>
+    <h2>SpotSolution</h2>
+    <p>Description: A comprehensive system for efficient parking management.<br>
+    <B> Features<br></B>
+        -Reservation: Book parking slots in advance.<br>
+        -Security: Alarm if a car moves without unlocking.<br>
+        -Space Size Information: Know whether it fits a car, van, or truck.<br>
+        -LED Lights: Highlight free slots.<br>
+        -Detailed Tickets: Display working hours, slot number, and pricing5.<br>
+        Remember, these smart parking solutions transform the mundane act of parking into a futuristic experience! 🚗✨</p>
+  </div>
+</div>
+
+<div id="dialog2" class="dialog">
+  <div class="dialog-content">
+    <span class="close" onclick="closeDialog('dialog2')">&times;</span>
+    <h2>SpotReport</h2>
+    <p>When you spot an illegally parked vehicle, follow these steps:<br>
+
+      <B>1. Gather Information:<br></B>
+        -Note vehicle details: make, model, color, and license plate number.<br>
+        -Capture photographic evidence.<br>
+        -Specify the exact location.<br>
+    <B> 2. Report:<br></B>
+       - Use an online form or call your local parking enforcement department.<br>
+
+    <B> 3. Reward:<br></B>
+    -Report an illegally parked vehicle and get assured rewards.<br>
+
+
+        Remember, you’re shaping a better community—one parking violation at a time! 🚗🌟
+        </p>
+  </div>
+</div>
+
+<script src="hckk.js"></script>
+
   <video width="640" height="360" controls class="vdo">
     <source src="C:\Users\ABC\Downloads\WhatsApp Video 2024-03-08 at 7.36.04 PM.mp4" type="video/mp4">
     
@@ -38,13 +81,7 @@
           <img src="image2.jpg" alt="Image 2">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
         </div>
-        <div class="container-box">
-          <h3>Container 3</h3>
-          <img src="image3.jpg" alt="Image 3">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
-        </div>
-      </div>
-      
+       
       
   </section>
   <!-- Footer -->
