@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Website</title>
+<link rel="stylesheet" href="hckk.css">
+<script src="hckk.js"></script>
+
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="#" onclick="scrollToHome()">Home</a></li>
+      <li><li><a href="about.html">About</a></li>
+</li>
+      <li><a href="#" onclick="scrollToContact()">Contact Us</a></li>
+    </ul>
+    <div class="login-signup">
+      <button onclick="openLoginDialog()">Login</button>
+      <button onclick="openSignupDialog()">Signup</button>
+    </div>
+  </nav>
+</header>
+
+
+<div class="content">
+ 
+  <p><h1><b>SpaceSpotter</b></h1></p>
+  <h3>Finding Parking Made Simple: </h3>
+  <h3>Your Gateway to Hassle-Free Parking Solutions</h3>
+  
+</div>
+
+<section class="options">
+  
+  <span> 
+    <a href="prebook.html" class="btn">PreBook</a>
+  </span>
+  <span class="option">
+  <a href="complaint.html" class="btn">File Complaint</a>
+  </span>
+  <span class="option">
+   <a href="findspot.html" class="btn">Find Spots</a>
+  
+  </span>
+</section>
+
+<div class="content-boxes">
+    <div class="content-box">
+      <h3>Box 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
+    </div>
+    <div class="content-box">
+      <h3>Box 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
+    </div>
+    <div class="content-box">
+      <h3>Box 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
+    </div>
+    <div class="content-box">
+      <h3>Box 4</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
+    </div>
+    <div class="content-box">
+      <h3>Box 5</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
+    </div>
+    <div class="content-box">
+      <h3>Box 6</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec velit vehicula, dignissim nulla eget, tempor elit.</p>
+    </div>
+  </div>
+  <button class="learn-more" onclick="openLearnMore()"><a href="learnmore.html">LearnMore</a></button>
+  <footer>
+    <div class="footer-content">
+      <div>
+        <h3>Contact Us</h3>
+        <p>Email: info@example.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+      <div>
+        <h3>Location</h3>
+        <p>123 Street, City</p>
+        <p>Country</p>
+      </div>
+    </div>
+  </footer>
+  
+
+<!-- Login Dialog -->
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeLoginDialog()">&times;</span>
+    <h2>Login</h2>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br>
+    <button class="btn" onclick="login()">Login</button>
+    <button class="btn" onclick="forgotPassword()">Forgot Password</button>
+  </div>
+</div>
+
+<!-- Signup Dialog -->
+<div id="signupModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeSignupDialog()">&times;</span>
+    <h2>Sign Up</h2>
+    <label for="emailOrPhone">Email or Phone:</label><br>
+    <input type="text" id="emailOrPhone" name="emailOrPhone"><br>
+    <label for="otp">OTP:</label><br>
+    <input type="text" id="otp" name="otp"><br>
+    <button class="btn" onclick="signup()">Sign Up</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

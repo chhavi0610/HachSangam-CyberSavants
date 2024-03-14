@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #CCD5AE;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #FAEDCD;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav h1 {
+    margin-left: 20rem;
+    padding: 10px 0;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* About Section Styles */
+  .about-section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #8367579d;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Add margin for spacing */
+  }
+  
+  .video-container video {
+    width: 100%; /* Set video width to 100% of parent container */
+    max-width: 640px; /* Set maximum width for the video */
+    height: auto; /* Set height to auto to maintain aspect ratio */
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .container-box {
+    width: 30%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .container-box h3 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .container-box p {
+    color: #333;
+  }
+  .container-box {
+    width: 30%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  .container-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+/* Styles for Options Section */
+.options {
+    text-align: center;
+  }
+  
+  .option {
+    margin-top: 20px;
+  }
+  
+  .option .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option .btn:hover {
+    background-color: #0056b3;
+  }
+/* Styles for Video */
+.vdo{
+    margin-left: 20rem;;
+}
+.video {
+    display: block;
+    margin-left: 50rem;
+    max-width: 100%; 
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    cursor: pointer;
+}
+.head{
+    margin-left: 32rem;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h1:hover{
+    text-decoration: solid;
+}
+button:hover {
+    background-color: #0056b3;
+}
