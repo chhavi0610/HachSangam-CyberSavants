@@ -250,3 +250,36 @@ footer {
     cursor: pointer;
     transition: all 0.3s ease;
     }
+    /* Styles for the fixed navigation bar */
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Styles for the content */
+.content {
+  height: 2000px; /* Example content height */
+  padding-top: 50px; /* Adjust for the fixed navigation bar */
+}
